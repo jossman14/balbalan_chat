@@ -1,26 +1,26 @@
 {
-  "name": "balbalan",
-  "version": "1.0.0",
-  "description": "this is a chat application built with node, mongodb, express and socket.io",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jossman14/balbalan_chat.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jossman14/balbalan_chat/issues"
-  },
-  "homepage": "https://github.com/jossman14/balbalan_chat#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "dependable": "^1.1.0",
-    "ejs": "^2.7.2",
-    "express": "^4.17.1",
-    "lodash": "^4.17.15"
-  }
+    "name": "balbalan",
+    "version": "1.0.0",
+    "description": "this is a chat application built with node, mongodb, express and socket.io",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jossman14/balbalan_chat.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jossman14/balbalan_chat/issues"
+    },
+    "homepage": "https://github.com/jossman14/balbalan_chat#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "dependable": "^1.1.0",
+        "ejs": "^2.7.2",
+        "express": "^4.17.1",
+        "lodash": "^4.17.15"
+    }
 }
