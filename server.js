@@ -11,7 +11,7 @@ container.resolve(function() {
         const app = express();
         const server = http.createServer(app);
         server.listen(3000, function() {
-            console.log("listening port on 3000");
+            console.log("Mendengarkan port 3000! (listen on port 3000)")
         });
-    }
+    };
 });
