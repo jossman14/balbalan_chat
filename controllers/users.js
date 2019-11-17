@@ -3,12 +3,12 @@
 module.exports = function(_) {
     return {
         SetRouting: function(router) {
-            router.get('/')
+            router.get('/', this.indexPage)
         },
 
-        indexPage: function(res, req) {
+        indexPage: function(req, res) {
             return res.render('index', {
-                test: 'this is a test'
+                test: 'this is a mnbmjnhjgjtest'
             });
         }
     }
