@@ -14,12 +14,12 @@ body {
 }
 
 .logo-div a {
-    color: #4aa1f3 !important;
+    color: #2ecc71 !important;
     text-decoration: none !important;
 }
 
 .reg-div a {
-    color: #4aa1f3 !important;
+    color: #2ecc71 !important;
     font-size: 18px;
     text-decoration: none !important;
     z-index: 1000;
@@ -32,7 +32,7 @@ body {
 }
 
 #main {
-    background: #4aa1f3 !important;
+    background: #2ecc71 !important;
     border: 1px solid white;
     height: 100%;
     /*    min-height: 300px;*/
@@ -90,7 +90,7 @@ form h1 {
 }
 
 form h1 {
-    color: #4aa1f3;
+    color: #2ecc71;
     /*text-shadow: 0 1px 0 #000;*/
     font-size: 35px;
     font-weight: 600;
