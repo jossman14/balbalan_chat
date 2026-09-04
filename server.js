@@ -14,16 +14,18 @@ const container = require("./container");
 
 container.resolve(function(users) {
     mongoose.Promise = global.Promise;
-    mongoose.connect("mongodb://localhost/balbalan", {
-        useMongoClient: true
+    mongoose.connect("mongodb://127.0.0.1:27017/balbalan_chat", {
+        useNewUrlParser: true,
+        useUnifiedTopology: true
     });
     const app = SetupExpress();
 
     function SetupExpress() {
         const app = express();
         const server = http.createServer(app);
-        server.listen(3000, function() {
-            console.log("Mendengarkan port 3000! (listen on port 3000)");
+        const PORT = process.env.PORT || 3000;
+        server.listen(PORT, "127.0.0.1", function() {
+            console.log(`Mendengarkan port ${PORT}! (listen on port ${PORT})`);
         });
 
         ConfigureExpress(app);
